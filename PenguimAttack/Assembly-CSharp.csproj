@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{AF3FE42B-F0C0-F6BF-511D-53A2912D3778}</ProjectGuid>
+	<ProjectGuid>{54635313-C421-8146-3DFF-193B641AA681}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\LoadOnClick.cs" />
      <Compile Include="Assets\Scripts\fishController.cs" />
      <Compile Include="Assets\Scripts\penguinBehaviour.cs" />
      <Compile Include="Assets\Scripts\penguinSpawnerController.cs" />
