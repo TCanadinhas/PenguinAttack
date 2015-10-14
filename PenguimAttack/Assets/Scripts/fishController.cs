@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class fishController : MonoBehaviour {
-
+	
 	private int velocity;
-
+	
 	// Use this for initialization
 	void Start () 
 	{
@@ -20,7 +20,7 @@ public class fishController : MonoBehaviour {
 			if(Input.GetKeyDown(KeyCode.RightArrow))
 				transform.position += new Vector3(velocity * Time.deltaTime,0,0);
 		}
-
+		
 		if (this.transform.position.x > -4f)
 		{
 			if(Input.GetKeyDown(KeyCode.LeftArrow))
